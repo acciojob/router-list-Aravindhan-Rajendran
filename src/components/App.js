@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <div>
-        <h1>Item Viewer</h1>
+        <h1>Item List</h1>
         <Routes>
           <Route path="/" element={<ItemList />} />
           <Route path="/item/:id" element={<ItemDetail />} />
